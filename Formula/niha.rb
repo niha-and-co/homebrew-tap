@@ -1,17 +1,17 @@
 class Niha < Formula
   desc "AI-native governance CLI for development teams"
   homepage "https://nihaandco.com"
-  version "0.4.0"
+  version "0.4.1"
   license "Proprietary"
 
   on_arm do
-    url "https://cli.nihaandco.com/releases/0.4.0/niha-darwin-arm64"
-    sha256 "224513f542e782071a4f6529b7c19210956cf2866afae7a4ad675127d393b03d"
+    url "https://cli.nihaandco.com/releases/0.4.1/niha-darwin-arm64"
+    sha256 "ae487a2403a9e1b89c1584053c1f9930169059e1e52ca143c3b840b2b7e536d8"
   end
 
   on_intel do
-    url "https://cli.nihaandco.com/releases/0.4.0/niha-darwin-x64"
-    sha256 "f51c35ae63d67e02ea20b686cb7d5f5162aa036e425106706e13313bec4a7726"
+    url "https://cli.nihaandco.com/releases/0.4.1/niha-darwin-x64"
+    sha256 "c0443c5426aa05077d8d3e26debd1162a5a4610edea74bf80eea3f8d2b4a17b4"
   end
 
   def install
