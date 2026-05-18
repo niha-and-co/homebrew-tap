@@ -3,13 +3,13 @@
 Install the niha CLI:
 
 ```bash
-brew install niha-and-co/tap/niha
+brew install --cask niha-and-co/tap/niha
 ```
 
 Upgrade:
 
 ```bash
-brew upgrade niha
+brew upgrade --cask niha
 ```
 
 Alternative install (no Homebrew):
