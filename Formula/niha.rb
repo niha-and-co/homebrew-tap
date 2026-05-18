@@ -6,12 +6,12 @@ class Niha < Formula
 
   on_arm do
     url "https://cli.nihaandco.com/releases/0.4.0/niha-darwin-arm64"
-    sha256 "PLACEHOLDER_ARM64_SHA"
+    sha256 "224513f542e782071a4f6529b7c19210956cf2866afae7a4ad675127d393b03d"
   end
 
   on_intel do
     url "https://cli.nihaandco.com/releases/0.4.0/niha-darwin-x64"
-    sha256 "PLACEHOLDER_X64_SHA"
+    sha256 "f51c35ae63d67e02ea20b686cb7d5f5162aa036e425106706e13313bec4a7726"
   end
 
   def install
