@@ -16,4 +16,8 @@ cask "niha" do
   name "niha"
   desc "AI-native governance CLI for development teams"
   homepage "https://nihaandco.com"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{staged_path}"]
+  end
 end
