@@ -1,14 +1,14 @@
 cask "niha" do
-  version "1.2.1"
+  version "1.3.0"
 
   on_arm do
-    sha256 "823eeb723b62235e6f948d85a1a0be9e4fb6b6fdc90648d3a71a74bc3ac36e28"
+    sha256 "7504a09b4852f4c87c313dd86ca42162931d9fb32ec722b46fed01cd7b4d9362"
     url "https://cli.nihaandco.com/releases/#{version}/niha-darwin-arm64"
     binary "niha-darwin-arm64", target: "niha"
   end
 
   on_intel do
-    sha256 "a18e6c937ad7b4563e24edbac06ead7e6f5edb41d3252129e706f1271bed3899"
+    sha256 "a39a03a63023ad7fd4333fb2ce2a17ce174954ca6353b5d36acd2ffec12fc97b"
     url "https://cli.nihaandco.com/releases/#{version}/niha-darwin-x64"
     binary "niha-darwin-x64", target: "niha"
   end
